@@ -27,7 +27,7 @@ Dans ce cours, tu vas:
 
 > Important, **clique sur le bouton ci-dessous** pour créer un **nouveau dépôt depuis la template**. N’utilise pas “Fork”, sinon les Actions risquent de ne pas se lancer automatiquement. Les dépôts privés consomment des minutes GitHub Actions.
 
-[![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=clubrobenstabrest&template_name=github-basics&owner=%40me&name=github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
+[![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTASIMOV&template_name=github-basics&owner=%40me&name=github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
 
 1. Clic droit sur **Commencer le cours** puis “Ouvrir le lien dans un nouvel onglet”.
 2. Dans le nouvel onglet, la plupart des champs sont préremplis, choisis le propriétaire du dépôt.
