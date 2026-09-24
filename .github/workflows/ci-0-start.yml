@@ -1,0 +1,66 @@
+name: CI Test Step 0
+
+on:
+  push:
+    branches:
+      - ci-test
+    paths:
+      - ".github/workflows/ci-0-start.yml"
+      - ".github/workflows/ci-1-step.yml"
+      - ".github/workflows/ci-2-step.yml"
+      - ".github/workflows/ci-3-step.yml"
+      - ".github/workflows/ci-4-step.yml"
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+env:
+  STEP_1_FILE: ".github/steps/1-step.md"
+  TOOLKIT_REPOSITORY: "ENSTASIMOV/exercise-toolkit-fr"
+  TOOLKIT_REF: "main"
+
+jobs:
+  start_exercise:
+    name: Démarrer l'exercice CI
+    uses: ENSTASIMOV/exercise-toolkit-fr/.github/workflows/start-exercise.yml@main
+    with:
+      exercise-title: "GitHub Basics CI"
+      intro-message: "Test de bout en bout du cours GitHub Basics en français."
+      manage-workflows: false
+
+  post_next_step_content:
+    name: Afficher l'étape 1
+    runs-on: ubuntu-latest
+    needs: [start_exercise]
+    env:
+      ISSUE_REPOSITORY: ${{ github.repository }}
+      ISSUE_NUMBER: ${{ needs.start_exercise.outputs.issue-number }}
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          ref: ci-test
+
+      - name: Récupérer les templates français
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.TOOLKIT_REPOSITORY }}
+          path: exercise-toolkit-fr
+          ref: ${{ env.TOOLKIT_REF }}
+
+      - name: Publier l'étape 1
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: ${{ env.STEP_1_FILE }}
+
+      - name: Publier le suivi
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: exercise-toolkit-fr/markdown-templates/step-feedback/watching-for-progress.md
