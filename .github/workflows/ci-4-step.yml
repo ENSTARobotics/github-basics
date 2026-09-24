@@ -1,0 +1,61 @@
+name: CI Test Step 4
+
+on:
+  pull_request:
+    branches:
+      - ci-test
+    types: [closed]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: read
+
+env:
+  REVIEW_FILE: ".github/steps/x-review.md"
+
+jobs:
+  find_exercise:
+    if: ${{ github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'ci-my-first-branch' }}
+    name: Retrouver l'Issue CI
+    uses: ENSTASIMOV/exercise-toolkit-fr/.github/workflows/find-exercise-issue.yml@main
+    with:
+      issue-title-text: "Exercice : GitHub Basics CI"
+
+  post_review_content:
+    name: Publier le bilan
+    needs: [find_exercise]
+    runs-on: ubuntu-latest
+    env:
+      ISSUE_REPOSITORY: ${{ github.repository }}
+      ISSUE_NUMBER: ${{ needs.find_exercise.outputs.issue-number }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: ENSTASIMOV/exercise-toolkit-fr
+          path: exercise-toolkit-fr
+          ref: main
+
+      - name: Introduire le bilan
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: exercise-toolkit-fr/markdown-templates/step-feedback/lesson-review.md
+
+      - name: Publier le bilan
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: ${{ env.REVIEW_FILE }}
+
+  finish_exercise:
+    name: Terminer l'exercice
+    needs: [find_exercise, post_review_content]
+    uses: ENSTASIMOV/exercise-toolkit-fr/.github/workflows/finish-exercise.yml@main
+    with:
+      issue-url: ${{ needs.find_exercise.outputs.issue-url }}
+      exercise-title: "GitHub Basics CI"
