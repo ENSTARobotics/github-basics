@@ -22,9 +22,9 @@ Dans ta pull request vérifie :
 2. Clique sur **Confirm merge**.
 3. Tu peux ensuite supprimer la branche.
 
-![Bouton de merge GitHub](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/Green-merge-pull-request.png)
+![Bouton de merge GitHub](../../images/Green-merge-pull-request.png)
 
-![Supprimer une branche](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/delete-branch.png)
+![Supprimer une branche](../../images/delete-branch.png)
 
 ### ⚠️ Et s'il y a un conflit ?
 
