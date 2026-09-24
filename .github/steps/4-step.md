@@ -1,29 +1,91 @@
-## Étape 4, résoudre les conflits et fusionner
+## Étape 4 : relire et merger la pull request
 
-{{ status_line }}
+Ta pull request relie maintenant ton travail à la branche principale.
 
-### 📖 Qu’est-ce qu’un conflit de fusion ?
-Un conflit arrive quand la même portion de code a été modifiée différemment sur `main` et sur ta branche. Git ne sait pas quelle version garder, il te demande de trancher.
+Avant de merger, prends quelques instants pour relire ce que tu vas intégrer.
 
-### ✅ Cas simple, pas de conflit
-- Le message GitHub « **This branch has no conflicts with the base branch** » signifie que tu peux **fusionner** directement.
-- Clique **Merge pull request** puis **Confirm merge**.
+### 📖 Qu'est-ce qu'un merge ?
 
-### ⚠️ S’il y a des conflits
-Choisis **une** des deux méthodes :
+Un **merge** intègre dans une branche les changements provenant d'une autre branche.
 
-**A. Bouton GitHub, UI**
-1. Clique **Update branch** dans la PR, si proposé.
-2. Si des conflits persistent, clique **Resolve conflicts**, édite, **Mark as resolved**, puis **Commit merge**.
+Ici, le but est d'intégrer le contenu de `my-first-branch` dans `main`.
 
-**B. Ligne de commande, rebase recommandé**
+Après le merge, ton changement fera donc partie de la version principale du dépôt.
+
+### 🔍 Avant de merger
+
+Dans ta pull request :
+
+1. ouvre **Files changed** ;
+2. vérifie que seules les modifications attendues apparaissent ;
+3. reviens dans **Conversation** ;
+4. vérifie que les checks éventuels sont terminés.
+
+Cette relecture finale évite d'intégrer accidentellement des fichiers ou des changements qui n'étaient pas prévus.
+
+### ⌨️ Exercice : merger la pull request
+
+Si GitHub indique que la branche peut être mergée :
+
+1. clique sur **Merge pull request** ;
+2. clique sur **Confirm merge** ;
+3. une fois le merge effectué, GitHub peut te proposer **Delete branch**.
+
+Tu peux supprimer `my-first-branch` après le merge. Son travail est désormais intégré dans `main` et son historique reste accessible.
+
+### ⚠️ Et s'il y a un conflit ?
+
+Un **conflit de merge** apparaît lorsque Git ne peut pas déterminer automatiquement quelle version d'une même partie d'un fichier doit être conservée.
+
+Dans cet exercice simple, tu ne devrais normalement pas rencontrer de conflit. Mais dans un projet réel, cela arrive souvent lorsque plusieurs personnes modifient la même zone d'un fichier.
+
+GitHub peut parfois proposer **Resolve conflicts** directement dans l'interface.
+
+En ligne de commande, une résolution typique ressemble à :
+
 ```bash
-git fetch origin
 git checkout my-first-branch
-git rebase origin/main
+git fetch origin
+git merge origin/main
 
-# Résous les conflits, supprime les marqueurs <<<<<<< ======= >>>>>>>
+# corriger les fichiers en conflit
+
 git add .
-git rebase --continue
+git commit
+git push
+```
 
-git push --force-with-lease
+Les marqueurs de conflit ressemblent à ceci :
+
+```text
+<<<<<<< HEAD
+ta version
+=======
+l'autre version
+>>>>>>> main
+```
+
+Il faut choisir ou recomposer la bonne version, puis supprimer ces marqueurs avant de créer le commit de résolution.
+
+### 🧠 Merge, squash, rebase
+
+GitHub peut proposer plusieurs stratégies selon la configuration du dépôt :
+
+- **Merge commit** : conserve les commits de la branche et ajoute un commit de merge ;
+- **Squash and merge** : regroupe les commits de la PR en un seul commit ;
+- **Rebase and merge** : rejoue les commits sur la branche cible pour obtenir un historique linéaire.
+
+Il n'existe pas une méthode universellement meilleure. Les équipes choisissent généralement une convention cohérente pour leurs projets.
+
+<details>
+<summary>Un problème ?</summary>
+
+Si le bouton de merge est désactivé :
+
+- attends la fin des checks ;
+- vérifie qu'aucun conflit n'est signalé ;
+- vérifie que les étapes précédentes ont bien été validées.
+
+</details>
+
+Merge maintenant ta pull request. Le cours détectera l'événement et affichera automatiquement le bilan final.
