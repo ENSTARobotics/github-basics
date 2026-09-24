@@ -2,43 +2,68 @@
 
 # Introduction à GitHub
 
-_Démarre sur GitHub en moins d’une heure._
+<img src="https://octodex.github.com/images/original.png" align="right" height="160px" />
+
+_Découvre GitHub en moins d’une heure._
 
 </header>
 
 ## Bienvenue
 
-Des jeux vidéo aux expériences data, GitHub propulse certains des projets les plus avancés. Que tu débutes ou que tu aies juste besoin d’un rappel, ce mini cours “Introduction à GitHub” te guide pas à pas pour contribuer rapidement.
+Bienvenue dans **GitHub Basics**, un cours interactif pour découvrir le workflow utilisé dans de nombreux projets logiciels.
 
-- **Pour qui**: nouveaux développeurs, nouveaux utilisateurs GitHub, étudiants.
-- **Ce que tu vas apprendre**: dépôts, branches, commits, pull requests.
-- **Ce que tu vas construire**: une petite modification de documentation proposée via une pull request.
-- **Prérequis**: aucun, un compte GitHub suffit.
-- **Durée**: moins d’une heure.
+Tu vas apprendre en pratiquant directement dans un dépôt GitHub : pas besoin d’avoir déjà utilisé Git.
 
-Dans ce cours, tu vas:
+## 🎯 Objectifs
 
-1. Créer une branche
-2. Commiter un fichier
-3. Ouvrir une pull request
-4. Merger ta pull request
+À la fin de ce cours, tu sauras :
 
-### Comment démarrer le cours
+- comprendre la différence entre Git et GitHub ;
+- créer et utiliser une branche ;
+- créer un commit propre ;
+- ouvrir une Pull Request ;
+- relire et merger une contribution.
 
-> Important, **clique sur le bouton ci-dessous** pour créer un **nouveau dépôt depuis la template**. N’utilise pas “Fork”, sinon les Actions risquent de ne pas se lancer automatiquement. Les dépôts privés consomment des minutes GitHub Actions.
+## 👥 Pour qui ?
+
+Ce cours s’adresse notamment aux :
+
+- nouveaux développeurs ;
+- étudiants en informatique ;
+- étudiants en robotique, systèmes embarqués, drones ou IA ;
+- personnes découvrant le travail collaboratif logiciel.
+
+## ⏱️ Durée et prérequis
+
+- **Durée estimée :** environ 30 à 60 minutes.
+- **Prérequis :** aucun. Un compte GitHub suffit.
+
+## 🚀 Ce que tu vas réaliser
+
+Tu vas suivre un workflow complet :
+
+1. Créer une branche.
+2. Modifier un fichier.
+3. Créer un commit.
+4. Ouvrir une Pull Request.
+5. Merger ta contribution.
+
+## Comment démarrer le cours
+
+> Important : clique sur le bouton ci-dessous pour créer un **nouveau dépôt depuis la template**. N'utilise pas Fork, sinon les Actions du cours peuvent ne pas se lancer correctement.
 
 [![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTASIMOV&template_name=github-basics&owner=%40me&name=github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
 
-1. Clic droit sur **Commencer le cours** puis “Ouvrir le lien dans un nouvel onglet”.
-2. Dans le nouvel onglet, la plupart des champs sont préremplis, choisis le propriétaire du dépôt.
-3. Clique sur **Create repository** en bas du formulaire.
-4. Attends environ **20 secondes**, puis **rafraîchis** la page, les instructions étape par étape apparaîtront dans les Issues.
+1. Ouvre le lien dans un nouvel onglet.
+2. Choisis le propriétaire du nouveau dépôt.
+3. Clique sur **Create repository**.
+4. Attends quelques secondes puis ouvre l'Issue créée automatiquement.
+
+Le cours se déroulera directement dans cette Issue avec des étapes guidées.
 
 ---
 
 ## Support
 
-Besoin d’aide, ouvre une issue dans ce dépôt.  
-Statut de GitHub, [status.github.com](https://www.githubstatus.com/)
+Besoin d'aide ? Ouvre une issue dans ce dépôt.
 
-&copy; 2025 GitHub • [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) • [MIT License](https://gh.io/mit)
