@@ -20,7 +20,7 @@ Sur la branche **`my-first-branch`** :
 
 ![Créer un nouveau fichier ou modifier un fichier](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/create-new-file.png)
 
-![Créer un commit GitHub](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/commit-full-screen.png)
+![Créer un commit GitHub](../../images/commit-full-screen.png)
 
 > [!IMPORTANT]
 > Le cours vérifiera automatiquement que `playground/README.md` existe et contient le mot `Hello`.
