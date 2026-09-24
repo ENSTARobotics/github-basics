@@ -14,7 +14,7 @@ Elle permet de faire relire son travail avant intégration.
 
 1. Après ton commit, clique sur **Compare & pull request**.
 
-![Créer une pull request](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/compare-and-pull-request.png)
+![Créer une pull request](../../images/compare-and-pull-request.png)
 
 2. Vérifie les branches :
 
@@ -23,7 +23,7 @@ Elle permet de faire relire son travail avant intégration.
 
 3. Ajoute une description expliquant ton changement.
 
-![Description d'une pull request](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/Pull-request-description.png)
+![Description d'une pull request](../../images/Pull-request-description.png)
 
 4. Clique sur **Create pull request**.
 
