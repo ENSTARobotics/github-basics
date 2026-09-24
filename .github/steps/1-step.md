@@ -12,46 +12,36 @@ La branche principale de ce dépôt s'appelle `main`. Elle représente la versio
 
 En créant une autre branche, tu peux modifier des fichiers, faire des commits et expérimenter sans modifier immédiatement `main`.
 
-C'est une pratique fondamentale dans la plupart des projets logiciels, qu'il s'agisse d'une application web, d'un logiciel embarqué, d'un projet scientifique, d'un drone, d'un robot ou d'un outil interne.
+C'est une pratique fondamentale dans la plupart des projets logiciels.
+
+### 👀 Où trouver le menu des branches ?
+
+Dans l'onglet **Code**, GitHub affiche actuellement la branche `main`.
+
+![Menu des branches GitHub](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/main-branch-dropdown.png)
 
 ### ⌨️ Exercice : créer `my-first-branch`
 
 1. Garde cette Issue ouverte dans cet onglet.
 2. Ouvre la page principale du dépôt dans un **second onglet**.
-3. Dans l'onglet **Code**, ouvre le menu des branches, qui affiche actuellement `main`.
-4. Dans le champ de recherche, saisis exactement :
+3. Dans l'onglet **Code**, ouvre le menu des branches.
+4. Crée exactement la branche :
 
-   ```text
-   my-first-branch
-   ```
+```text
+my-first-branch
+```
 
-5. Clique sur **Create branch: my-first-branch from main**.
-
-GitHub basculera automatiquement sur ta nouvelle branche.
+![Créer une branche GitHub](https://raw.githubusercontent.com/lilblueyes/skills-introduction-to-github/main/images/create-branch-button.png)
 
 > [!IMPORTANT]
-> Le nom `my-first-branch` est vérifié automatiquement. Utilise exactement ce nom pour que le cours puisse détecter ta progression.
+> Le nom `my-first-branch` est vérifié automatiquement. Utilise exactement ce nom.
 
 ### 💻 Option terminal
-
-Si tu utilises Git en ligne de commande :
 
 ```bash
 git checkout -b my-first-branch
 git push -u origin my-first-branch
 ```
-
-La première commande crée la branche localement et s'y place. La seconde la publie sur GitHub.
-
-### Pourquoi ne pas travailler directement sur `main` ?
-
-Une branche permet notamment de :
-
-- isoler une fonctionnalité ou une correction ;
-- travailler sans perturber la version principale ;
-- partager son travail avant de l'intégrer ;
-- faire relire les changements ;
-- abandonner une expérimentation sans casser le projet.
 
 <details>
 <summary>Un problème ?</summary>
@@ -59,9 +49,9 @@ Une branche permet notamment de :
 Vérifie que :
 
 - la branche s'appelle exactement `my-first-branch` ;
-- elle a été créée à partir de `main` ;
-- si tu travailles en local, tu l'as bien poussée sur GitHub avec `git push -u origin my-first-branch`.
+- elle a été créée depuis `main` ;
+- elle est bien publiée sur GitHub.
 
 </details>
 
-Une fois la branche créée, le cours détectera automatiquement l'action et affichera l'étape suivante dans cette Issue.
+Une fois la branche créée, le cours détectera automatiquement l'action et affichera l'étape suivante.
