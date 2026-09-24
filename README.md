@@ -1,44 +1,31 @@
-<header>
+<div align="center">
 
-# Introduction à GitHub
+# 🎉 Félicitations lilblueyes ! 🎉
 
-_Démarre sur GitHub en moins d’une heure._
+<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
-</header>
+### 🌟 Tu as terminé l'exercice avec succès ! 🌟
 
-## Bienvenue
+## 🚀 Partage ta réussite
 
-Des jeux vidéo aux expériences data, GitHub propulse certains des projets les plus avancés. Que tu débutes ou que tu aies juste besoin d’un rappel, ce mini cours “Introduction à GitHub” te guide pas à pas pour contribuer rapidement.
+**Tu peux partager ce que tu viens d'apprendre et le dépôt de l'exercice.**
 
-- **Pour qui**: nouveaux développeurs, nouveaux utilisateurs GitHub, étudiants.
-- **Ce que tu vas apprendre**: dépôts, branches, commits, pull requests.
-- **Ce que tu vas construire**: une petite modification de documentation proposée via une pull request.
-- **Prérequis**: aucun, un compte GitHub suffit.
-- **Durée**: moins d’une heure.
+<a href="https://twitter.com/intent/tweet?text=Je%20viens%20de%20terminer%20l&#39;exercice%20GitHub%20%22GitHub%20Basics%20CI%22%20!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FENSTASIMOV%2Fgithub-basics%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Partager%20sur%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Partager sur X" />
+</a>
+<a href="https://bsky.app/intent/compose?text=Je%20viens%20de%20terminer%20l&#39;exercice%20GitHub%20%22GitHub%20Basics%20CI%22%20!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FENSTASIMOV%2Fgithub-basics%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Partager%20sur%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Partager sur Bluesky" />
+</a>
+<a href="https://www.linkedin.com/feed/?shareActive=true&text=Je%20viens%20de%20terminer%20l&#39;exercice%20GitHub%20%22GitHub%20Basics%20CI%22%20!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FENSTASIMOV%2Fgithub-basics%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Partager%20sur%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Partager sur LinkedIn" />
+</a>
 
-Dans ce cours, tu vas:
+### 🎯 Et maintenant ?
 
-1. Créer une branche
-2. Commiter un fichier
-3. Ouvrir une pull request
-4. Merger ta pull request
+[![](https://img.shields.io/badge/Revenir%20%C3%A0%20l'exercice-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/ENSTASIMOV/github-basics/issues/5)
+[![GitHub Skills](https://img.shields.io/badge/D%C3%A9couvrir%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills)
 
-### Comment démarrer le cours
+*La meilleure façon d'apprendre reste de construire et d'expérimenter.* 🚀
 
-> Important, **clique sur le bouton ci-dessous** pour créer un **nouveau dépôt depuis la template**. N’utilise pas “Fork”, sinon les Actions risquent de ne pas se lancer automatiquement. Les dépôts privés consomment des minutes GitHub Actions.
+</div>
 
-[![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=clubrobenstabrest&template_name=github-basics&owner=%40me&name=github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
-
-1. Clic droit sur **Commencer le cours** puis “Ouvrir le lien dans un nouvel onglet”.
-2. Dans le nouvel onglet, la plupart des champs sont préremplis, choisis le propriétaire du dépôt.
-3. Clique sur **Create repository** en bas du formulaire.
-4. Attends environ **20 secondes**, puis **rafraîchis** la page, les instructions étape par étape apparaîtront dans les Issues.
-
----
-
-## Support
-
-Besoin d’aide, ouvre une issue dans ce dépôt.  
-Statut de GitHub, [status.github.com](https://www.githubstatus.com/)
-
-&copy; 2025 GitHub • [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) • [MIT License](https://gh.io/mit)
