@@ -30,10 +30,10 @@ jobs:
 
     steps:
       - name: Récupérer le dépôt
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Récupérer les templates français
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           repository: ${{ env.TOOLKIT_REPOSITORY }}
           path: exercise-toolkit-fr
