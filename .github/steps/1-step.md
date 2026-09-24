@@ -1,22 +1,67 @@
-﻿## Étape 1, créer une branche
+## Étape 1 : créer une branche
 
-Les branches te permettent de travailler en sécurité, sans toucher à `main`.
+Bienvenue dans ta première manipulation GitHub.
 
-### 📖 Théorie, c’est quoi une branche ?
+Avant de modifier un projet partagé, on évite généralement de travailler directement sur la branche principale. On crée une **branche** dédiée à son travail.
 
-Une branche est un pointeur mobile vers une séquence de commits. Tu peux expérimenter librement, puis fusionner ton travail dans `main` via une pull request.
+### 📖 Qu'est-ce qu'une branche ?
 
-### ⌨️ Exercice, créer `my-first-branch`
+Une branche est une version parallèle de l'historique du dépôt.
 
-1. Depuis l’onglet **Code**, ouvre le menu des branches, il affiche probablement `main`.
-2. Saisis **`my-first-branch`**, clique **Create branch**.
-3. Option ligne de commande
-   ```bash
-   git checkout -b my-first-branch
+La branche principale de ce dépôt s'appelle `main`. Elle représente la version de référence du projet.
+
+En créant une autre branche, tu peux modifier des fichiers, faire des commits et expérimenter sans modifier immédiatement `main`.
+
+C'est une pratique fondamentale dans la plupart des projets logiciels, qu'il s'agisse d'une application web, d'un logiciel embarqué, d'un projet scientifique, d'un drone, d'un robot ou d'un outil interne.
+
+### ⌨️ Exercice : créer `my-first-branch`
+
+1. Garde cette Issue ouverte dans cet onglet.
+2. Ouvre la page principale du dépôt dans un **second onglet**.
+3. Dans l'onglet **Code**, ouvre le menu des branches, qui affiche actuellement `main`.
+4. Dans le champ de recherche, saisis exactement :
+
+   ```text
+   my-first-branch
    ```
 
+5. Clique sur **Create branch: my-first-branch from main**.
+
+GitHub basculera automatiquement sur ta nouvelle branche.
+
+> [!IMPORTANT]
+> Le nom `my-first-branch` est vérifié automatiquement. Utilise exactement ce nom pour que le cours puisse détecter ta progression.
+
+### 💻 Option terminal
+
+Si tu utilises Git en ligne de commande :
+
+```bash
+git checkout -b my-first-branch
+git push -u origin my-first-branch
+```
+
+La première commande crée la branche localement et s'y place. La seconde la publie sur GitHub.
+
+### Pourquoi ne pas travailler directement sur `main` ?
+
+Une branche permet notamment de :
+
+- isoler une fonctionnalité ou une correction ;
+- travailler sans perturber la version principale ;
+- partager son travail avant de l'intégrer ;
+- faire relire les changements ;
+- abandonner une expérimentation sans casser le projet.
+
 <details>
-<summary>Un souci ? 🤷</summary><br/>
-Assure-toi d’être bien sur la page du dépôt, pas la liste de tes forks.  
-En CLI, vérifie que Git est installé, `git --version`.
+<summary>Un problème ?</summary>
+
+Vérifie que :
+
+- la branche s'appelle exactement `my-first-branch` ;
+- elle a été créée à partir de `main` ;
+- si tu travailles en local, tu l'as bien poussée sur GitHub avec `git push -u origin my-first-branch`.
+
 </details>
+
+Une fois la branche créée, le cours détectera automatiquement l'action et affichera l'étape suivante dans cette Issue.
