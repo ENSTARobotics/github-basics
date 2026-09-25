@@ -45,7 +45,7 @@ Passe maintenant au tutoriel **[Git & VS Code](https://github.com/ENSTARobotics/
 clone → branche → modification dans VS Code → git status → git add → commit → push → pull request
 ```
 
-Tu y apprendras notamment dépôt local, staging area, remote `origin`, historique, `fetch`, `push`, `pull` et le panneau Source Control de VS Code.
+Tu y apprendras à copier un dépôt sur ton ordinateur, comprendre ce que Git suit localement, préparer puis enregistrer un changement, l'envoyer sur GitHub et resynchroniser ton projet après un merge. Les termes techniques seront introduits au moment où ils deviennent utiles.
 
 Les **conflits de merge** viendront ensuite dans un tutoriel dédié, une fois ce workflow normal maîtrisé.
 

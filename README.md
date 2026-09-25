@@ -46,9 +46,9 @@ Ce cours s'adresse aux personnes qui découvrent GitHub, notamment aux étudiant
 
 ## Commencer le cours
 
-Crée un nouveau dépôt à partir de ce **dépôt modèle** (_template_). N'utilise pas **Fork** : l'exercice repose sur les automatisations incluses dans le dépôt modèle.
+Crée un nouveau dépôt à partir de ce **dépôt modèle** (_template_). Un dépôt modèle est un dépôt prévu pour servir de point de départ : GitHub en copie les fichiers et les automatisations dans ton nouveau dépôt. N'utilise pas **Fork** : ici, on veut une copie indépendante créée depuis le modèle.
 
-[![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTARobotics&template_name=tutorial-github-basics&owner=%40me&name=tutorial-github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
+[![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTARobotics&template_name=tutorial-github-basics&owner=%40me&name=tutorial-github-basics&description=Tutoriel%20interactif%20%3A%20d%C3%A9couvrir%20les%20bases%20de%20GitHub&visibility=public)
 
 Après la création du dépôt :
 
