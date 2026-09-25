@@ -78,6 +78,10 @@ jobs:
             gh api --method PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/1-create-a-branch.yml/enable"
           fi
 
+          # Laisse à GitHub quelques secondes pour enregistrer un événement déjà parti.
+          echo "Attendre les événements déjà en vol..."
+          sleep 2
+
           if gh api "repos/${GITHUB_REPOSITORY}/branches/my-first-branch" >/dev/null 2>&1; then
             echo "La branche existe déjà : lancement immédiat de l'étape 1."
             gh workflow run 1-create-a-branch.yml --ref my-first-branch
