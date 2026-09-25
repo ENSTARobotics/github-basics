@@ -4,7 +4,7 @@ Bienvenue dans ta première manipulation GitHub.
 
 ### Un dépôt et sa branche principale
 
-Le **dépôt** est le projet que tu viens de créer à partir du template. GitHub y stocke les fichiers et leur historique.
+Le **dépôt** est le projet que tu viens de créer à partir du dépôt modèle. GitHub y stocke les fichiers et leur historique.
 
 Un dépôt peut avoir plusieurs **branches**. Une branche est une version parallèle du projet : elle permet de préparer un changement sans modifier immédiatement la version de référence.
 
@@ -40,17 +40,5 @@ GitHub bascule automatiquement sur la nouvelle branche.
 
 > [!IMPORTANT]
 > Le nom `my-first-branch` est utilisé par l'automatisation du cours. Utilise exactement ce nom.
-
-<details>
-<summary>Option terminal, si tu travailles déjà avec une copie locale du dépôt</summary>
-
-```bash
-git switch -c my-first-branch
-git push -u origin my-first-branch
-```
-
-`git switch -c` crée la branche et s'y place. `git push` envoie cette branche vers GitHub.
-
-</details>
 
 Une fois la branche créée sur GitHub, Mona détectera l'action et publiera automatiquement l'étape suivante ici.

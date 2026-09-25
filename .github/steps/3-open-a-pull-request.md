@@ -37,12 +37,18 @@ Si tu passes par l'interface manuelle :
 
 ### Donner du contexte aux autres
 
-Une PR doit expliquer ce qu'elle propose.
+Une bonne PR permet de comprendre le changement sans devoir deviner son intention.
 
-Utilise exactement ce titre :
+Choisis un titre court et explicite, par exemple :
 
 ```text
 Ajouter mon profil
+```
+
+ou :
+
+```text
+Add PROFILE.md
 ```
 
 Puis ajoute une courte description, par exemple :
@@ -58,7 +64,7 @@ J'ai ajouté PROFILE.md afin de pratiquer mon premier cycle de contribution sur 
 Clique enfin sur **Create pull request**.
 
 > [!IMPORTANT]
-> Mona vérifiera le titre et la présence d'une description.
+> Mona vérifiera que le titre est suffisamment explicite et qu'une description est présente. Tu n'as plus de phrase exacte à recopier.
 
 ### Ensuite, reste dans la pull request
 
