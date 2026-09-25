@@ -46,7 +46,7 @@ Ce cours s'adresse aux personnes qui découvrent GitHub, notamment aux étudiant
 
 ## Commencer le cours
 
-Crée un nouveau dépôt à partir de ce **dépôt modèle** (_template_). Un dépôt modèle est un dépôt prévu pour servir de point de départ : GitHub en copie les fichiers et les automatisations dans ton nouveau dépôt. N'utilise pas **Fork** : ici, on veut une copie indépendante créée depuis le modèle.
+Crée un nouveau dépôt à partir de ce **dépôt modèle** (_template_). Un dépôt modèle est un dépôt prévu pour servir de point de départ : GitHub en copie les fichiers et les automatisations dans ton nouveau dépôt. N'utilise pas **Fork** : un fork est une copie liée au dépôt d'origine, surtout utile pour proposer des contributions à un projet existant. Ici, on veut au contraire une copie indépendante créée depuis le modèle.
 
 [![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTARobotics&template_name=tutorial-github-basics&owner=%40me&name=tutorial-github-basics&description=Tutoriel%20interactif%20%3A%20d%C3%A9couvrir%20les%20bases%20de%20GitHub&visibility=public)
 
@@ -59,7 +59,7 @@ Après la création du dépôt :
 <details>
 <summary>Le cours ne démarre pas ?</summary>
 
-Ouvre l'onglet **Actions** du dépôt. **GitHub Actions** est le système d'automatisation de GitHub utilisé par le bot du cours. Vérifie le workflow **Step 0** : si un run a échoué, son journal indique généralement la cause.
+Ouvre l'onglet **Actions** du dépôt. **GitHub Actions** est le système d'automatisation de GitHub utilisé par le bot du cours. Vérifie le **workflow** **Step 0**. Un workflow est une automatisation décrite pour GitHub Actions. Si son exécution a échoué, son journal indique généralement la cause.
 
 </details>
 
