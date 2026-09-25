@@ -35,7 +35,7 @@ Pendant l'exercice, tu vas :
 Le bot te guidera d'abord dans une Issue dédiée. Lorsque tu ouvriras ta pull request, la suite du cours apparaîtra directement dans sa conversation pour éviter de jongler entre plusieurs onglets.
 
 > [!NOTE]
-> Ce premier cours utilise volontairement l'interface web de GitHub. Le travail quotidien du club se fera ensuite surtout avec **Git en ligne de commande et VS Code**, qui méritent un tutoriel séparé pour introduire proprement dépôt local, staging, remote, `push`, `pull` et résolution de conflits.
+> Ce premier cours utilise volontairement l'interface web de GitHub. Le travail quotidien du club se fera ensuite surtout avec **Git en ligne de commande et VS Code**. Le tutoriel suivant est déjà disponible : [Git & VS Code](https://github.com/ENSTARobotics/tutorial-git-vscode).
 
 ## Pour qui ?
 
@@ -48,7 +48,7 @@ Ce cours s'adresse aux personnes qui découvrent GitHub, notamment aux étudiant
 
 Crée un nouveau dépôt à partir de ce **dépôt modèle** (_template_). N'utilise pas **Fork** : l'exercice repose sur les automatisations incluses dans le dépôt modèle.
 
-[![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTARobotics&template_name=github-basics&owner=%40me&name=github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
+[![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTARobotics&template_name=tutorial-github-basics&owner=%40me&name=tutorial-github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
 
 Après la création du dépôt :
 

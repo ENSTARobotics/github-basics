@@ -39,13 +39,15 @@
 
 Dans ce cours, tu as volontairement utilisé l'interface web pour voir chaque notion séparément.
 
-Dans un vrai projet du club, tu travailleras surtout avec **Git en ligne de commande et VS Code**. Le prochain tutoriel devra donc reprendre exactement le même cycle, mais depuis une copie locale du dépôt :
+Passe maintenant au tutoriel **[Git & VS Code](https://github.com/ENSTARobotics/tutorial-git-vscode)**. Tu y reprendras le même cycle depuis une copie locale du dépôt :
 
 ```text
 clone → branche → modification dans VS Code → git status → git add → commit → push → pull request
 ```
 
-Ce sera le bon moment pour introduire proprement dépôt local, staging area, remote `origin`, `push`, `pull`, conflits et résolution dans VS Code.
+Tu y apprendras notamment dépôt local, staging area, remote `origin`, historique, `fetch`, `push`, `pull` et le panneau Source Control de VS Code.
+
+Les **conflits de merge** viendront ensuite dans un tutoriel dédié, une fois ce workflow normal maîtrisé.
 
 Documentation officielle : <https://docs.github.com/>
 
