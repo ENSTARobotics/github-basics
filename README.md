@@ -1,69 +1,64 @@
 <header>
 
-# Introduction à GitHub
+# GitHub Basics
 
 <img src="https://octodex.github.com/images/original.png" align="right" height="160px" />
 
-_Découvre GitHub en moins d’une heure._
+_Découvre GitHub en moins d'une heure._
 
 </header>
 
 ## Bienvenue
 
-Bienvenue dans **GitHub Basics**, un cours interactif pour découvrir le workflow utilisé dans de nombreux projets logiciels.
+GitHub est une plateforme de collaboration pour les projets versionnés avec **Git**.
 
-Tu vas apprendre en pratiquant directement dans un dépôt GitHub : pas besoin d’avoir déjà utilisé Git.
+- **Git** enregistre l'historique des fichiers d'un projet.
+- Un **dépôt** (ou _repository_) est le dossier de projet suivi par Git et hébergé sur GitHub.
+- Une **branche** est une version parallèle du projet sur laquelle tu peux travailler sans modifier immédiatement la version principale.
+- Un **commit** est un enregistrement identifié d'un ensemble de modifications.
+- Une **pull request** est une proposition pour intégrer les changements d'une branche dans une autre après les avoir relus.
+- Un **merge** est l'intégration effective de ces changements.
 
-## 🎯 Objectifs
+Tu n'as pas besoin de mémoriser ces définitions maintenant. Le cours va reprendre chaque notion dans l'ordre, au moment où tu l'utiliseras.
 
-À la fin de ce cours, tu sauras :
+## Ce que tu vas faire
 
-- comprendre la différence entre Git et GitHub ;
-- créer et utiliser une branche ;
-- créer un commit propre ;
-- ouvrir une Pull Request ;
-- relire et merger une contribution.
+Pendant l'exercice, tu vas :
 
-## 👥 Pour qui ?
+1. créer une branche appelée `my-first-branch` ;
+2. créer un fichier Markdown nommé `PROFILE.md` ;
+3. enregistrer ce changement dans un commit ;
+4. ouvrir une pull request vers `main` ;
+5. relire les changements et merger la pull request.
 
-Ce cours s’adresse notamment aux :
+Le bot te guidera d'abord dans une Issue dédiée. Lorsque tu ouvriras ta pull request, la suite du cours apparaîtra directement dans sa conversation pour éviter de jongler entre plusieurs onglets.
 
-- nouveaux développeurs ;
-- étudiants en informatique ;
-- étudiants en robotique, systèmes embarqués, drones ou IA ;
-- personnes découvrant le travail collaboratif logiciel.
+## Pour qui ?
 
-## ⏱️ Durée et prérequis
+Ce cours s'adresse aux personnes qui découvrent GitHub, notamment aux étudiants et aux nouveaux contributeurs à un projet logiciel ou robotique.
 
-- **Durée estimée :** environ 30 à 60 minutes.
-- **Prérequis :** aucun. Un compte GitHub suffit.
+- **Durée :** environ 30 à 60 minutes.
+- **Prérequis :** aucun, à part un compte GitHub.
 
-## 🚀 Ce que tu vas réaliser
+## Commencer le cours
 
-Tu vas suivre un workflow complet :
-
-1. Créer une branche.
-2. Modifier un fichier.
-3. Créer un commit.
-4. Ouvrir une Pull Request.
-5. Merger ta contribution.
-
-## Comment démarrer le cours
-
-> Important : clique sur le bouton ci-dessous pour créer un **nouveau dépôt depuis la template**. N'utilise pas Fork, sinon les Actions du cours peuvent ne pas se lancer correctement.
+Crée un nouveau dépôt à partir de ce template. N'utilise pas **Fork** : l'exercice repose sur les GitHub Actions incluses dans le template.
 
 [![Commencer le cours](https://img.shields.io/badge/Commencer%20le%20cours-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=ENSTASIMOV&template_name=github-basics&owner=%40me&name=github-basics&description=Exercice%3A%20GitHub%20Basics&visibility=public)
 
-1. Ouvre le lien dans un nouvel onglet.
-2. Choisis le propriétaire du nouveau dépôt.
-3. Clique sur **Create repository**.
-4. Attends quelques secondes puis ouvre l'Issue créée automatiquement.
+Après la création du dépôt :
 
-Le cours se déroulera directement dans cette Issue avec des étapes guidées.
+1. attends une vingtaine de secondes ;
+2. actualise la page ;
+3. ouvre l'Issue créée automatiquement par Mona.
+
+<details>
+<summary>Le cours ne démarre pas ?</summary>
+
+Ouvre l'onglet **Actions** du dépôt et vérifie le workflow **Step 0**. Si un run a échoué, son journal indique généralement la cause.
+
+</details>
 
 ---
 
-## Support
-
-Besoin d'aide ? Ouvre une issue dans ce dépôt.
-
+Inspiré de [GitHub Skills - Introduction to GitHub](https://github.com/skills/introduction-to-github).
